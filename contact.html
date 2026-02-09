@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Ensuredit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">ensure<span>dit</span></a>
+    <div class="nav-links">
+      <div class="nav-dropdown">
+        <a href="#" class="nav-link has-dropdown">Products <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+        <div class="dropdown-menu">
+          <a href="ice.html"><span class="dd-icon">🏢</span><div><strong>ICE</strong><span>Insurance Commerce Engine</span></div></a>
+          <a href="enbed.html"><span class="dd-icon">⚙️</span><div><strong>Enbed</strong><span>CPQ Engine</span></div></a>
+          <a href="enlyt.html"><span class="dd-icon">📊</span><div><strong>Enlyt</strong><span>Data Intelligence</span></div></a>
+          <a href="bi-platform.html"><span class="dd-icon">📈</span><div><strong>BI Platform</strong><span>Business Intelligence</span></div></a>
+          <a href="sales-ops.html"><span class="dd-icon">🎯</span><div><strong>Sales Ops</strong><span>Sales Management</span></div></a>
+          <a href="ai-agents.html"><span class="dd-icon">🤖</span><div><strong>AI Agents</strong><span>Autonomous Operations</span></div></a>
+        </div>
+      </div>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Get Started</a>
+    <button class="mobile-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu">
+  <div class="mobile-menu-inner">
+    <a href="index.html">Home</a>
+    <div class="mobile-section-label">Products</div>
+    <a href="ice.html">ICE — Insurance Commerce Engine</a>
+    <a href="enbed.html">Enbed — CPQ Engine</a>
+    <a href="enlyt.html">Enlyt — Data Intelligence</a>
+    <a href="bi-platform.html">BI Platform</a>
+    <a href="sales-ops.html">Sales Ops</a>
+    <a href="ai-agents.html">AI Agents</a>
+    <div class="mobile-section-label">Company</div>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="product-hero">
+  <div class="grid-bg"></div>
+  <div class="container">
+    <h1 class="fade-in fd1">Let's Build Something<br><span class="gradient-text">Together.</span></h1>
+    <p class="product-hero-sub fade-in fd2">Whether you need a single product deployed or a complete AI transformation, we'd love to hear from you. Our team typically responds within 24 hours.</p>
+  </div>
+</section>
+
+<!-- ==================== CONTACT GRID ==================== -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid fade-in fd1">
+
+      <!-- LEFT COLUMN — Contact Info -->
+      <div class="contact-info">
+        <div class="contact-person">
+          <h4>Amit Boni</h4>
+          <div class="cp-role">Founder & CEO</div>
+          <div class="cp-detail">
+            <a href="mailto:amit@ensuredit.com">amit@ensuredit.com</a><br>
+            <a href="tel:+917011240400">+91 7011240400</a>
+          </div>
+        </div>
+
+        <div class="contact-person">
+          <h4>Rohit Sadhu</h4>
+          <div class="cp-role">Founder & COO</div>
+          <div class="cp-detail">
+            <a href="mailto:rohit@ensuredit.com">rohit@ensuredit.com</a><br>
+            <a href="tel:+917303474258">+91 7303474258</a>
+          </div>
+        </div>
+
+        <div class="contact-person">
+          <h4>Asad Akbar</h4>
+          <div class="cp-role">SVP - Sales</div>
+          <div class="cp-detail">
+            <a href="mailto:asad@ensuredit.com">asad@ensuredit.com</a><br>
+            <a href="tel:+917799004411">+91 7799004411</a>
+          </div>
+        </div>
+
+        <!-- Offices -->
+        <div style="margin-top: 32px;">
+          <div class="section-label">Offices</div>
+          <div class="contact-person">
+            <h4>Gurugram, India <span style="font-size: 12px; color: var(--accent); font-weight: 600;">(HQ)</span></h4>
+          </div>
+          <div class="contact-person">
+            <h4>Mumbai, India</h4>
+          </div>
+          <div class="contact-person">
+            <h4>Dubai, UAE</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN — Contact Form -->
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your company name">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in...</label>
+            <select id="interest" name="interest">
+              <option value="" disabled selected>Select an option</option>
+              <option value="product-deployment">Product Deployment</option>
+              <option value="platform-build">Platform Build</option>
+              <option value="ai-agent-deployment">AI Agent Deployment</option>
+              <option value="data-intelligence">Data Intelligence</option>
+              <option value="general-inquiry">General Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project or requirements..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ENGAGEMENT MODELS ==================== -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-label fade-in">How We Work</div>
+    <h2 class="fade-in fd1">Three Ways to Engage</h2>
+    <p class="section-sub fade-in fd2">Whether you need a single product or complete AI transformation.</p>
+
+    <div class="engage-grid fade-in fd3">
+      <div class="engage-card">
+        <div class="engage-icon">🚀</div>
+        <h4>Product Deployment</h4>
+        <p>Pick a product — CPQ, Enlyt, BI, Sales Ops — configured for your industry, your data, your channels.</p>
+        <div class="engage-timeline">2-4 weeks to live</div>
+        <div class="engage-pricing">SaaS + usage</div>
+      </div>
+      <div class="engage-card engage-featured">
+        <div class="engage-popular">Most Popular</div>
+        <div class="engage-icon">🏗️</div>
+        <h4>Platform Build</h4>
+        <p>Full stack — CPQ, data intelligence, sales management, AI agents. Your complete AI-powered operating system.</p>
+        <div class="engage-timeline">4-8 weeks to live</div>
+        <div class="engage-pricing">Platform license + SaaS</div>
+      </div>
+      <div class="engage-card">
+        <div class="engage-icon">🤖</div>
+        <h4>AI Agent Deployment</h4>
+        <p>Custom AI agents on your data, integrated with your systems, optimized for your workflows.</p>
+        <div class="engage-timeline">2-6 weeks to live</div>
+        <div class="engage-pricing">Outcome-based</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">ensure<span>dit</span></div>
+        <p>Product-Grade AI for Enterprise.<br>Not models. Not people. Outcomes.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <a href="ice.html">ICE — Insurance Commerce</a>
+        <a href="enbed.html">Enbed — CPQ Engine</a>
+        <a href="enlyt.html">Enlyt — Data Intelligence</a>
+        <a href="bi-platform.html">BI Platform</a>
+        <a href="sales-ops.html">Sales Ops</a>
+        <a href="ai-agents.html">AI Agents</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="about.html">About Us</a>
+        <a href="about.html#team">Team</a>
+        <a href="about.html#investors">Investors</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>Get in Touch</h5>
+        <a href="mailto:amit@ensuredit.com">amit@ensuredit.com</a>
+        <a href="mailto:rohit@ensuredit.com">rohit@ensuredit.com</a>
+        <a href="tel:+917011240400">+91 7011240400</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ensuredit Technologies Private Limited. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
